@@ -1,1 +1,28 @@
-# Riga-for-turists
+Educational Game Concept: Riga Explorer - Sense of Location
+Riga: Cultural and Historical Significance
+The Latvian capital Riga lies on the Daugava River at the edge of the Baltic Sea, and is home to over 600,000 people – about one-third of Latvia’s population. Founded in 1201, Riga was a major Hanseatic League centre (13th-15th centuries). Its historic Old Town (a UNESCO World Heritage Site) preserves Gothic and Baroque buildings, while 19th-century expansion added many wooden neoclassical homes followed by an Art Nouveau (Jugendstil) boom. In fact, Riga is renowned for having the finest concentration of Art Nouveau architecture in Europe. Riga’s culture includes rich traditions like the Baltic Song and Dance Festivals (a UNESCO-listed event). These grand choral festivals draw tens of thousands of participants and reflect Latvia’s deep folk music heritage. Today Riga’s skyline mixes medieval spires (e.g. St. Peter’s Church), the iconic Freedom Monument (commemorating Latvian independence), and modern landmarks like the Latvian Academy of Sciences and TV Tower.
+Educational Goals and Audience
+Audience: The game targets middle-school students (ages 10-14) learning about European cities and cultures. It could be used in geography or social studies classes to introduce Latvian history, architecture, and traditions.
+Learning Objectives: Players will learn to identify Riga on a map, recognize major landmarks (e.g. Freedom Monument, Art Nouveau buildings, the Daugava River), and understand their historical context. The game also aims to expose students to local culture (e.g. language basics, folk music). By solving clues and quizzes, learners practice map-reading and critical thinking while gaining “sense of place.” Such interactive geography games have been shown to complement classroom learning and increase students’ awareness of the world around them.
+Educational Benefits: Through gameplay students develop spatial reasoning and retain knowledge by active discovery. The quiz questions reinforce facts, and success badges or a storyline encourage engagement. The content is age-appropriate and aligns with curricula on European capitals and heritage sites.
+
+
+Game Concept
+The proposed game is “Riga Explorer”, an interactive digital treasure hunt/quiz set on a stylized map of Riga. Key features include:
+Interactive Map: A simplified overhead map of Riga (districts, river) serves as the main interface. Landmark icons (monuments, museums, churches) are placed at real locations.
+Clue-Based Quests: Players receive clues (text or images) leading them to specific sites. For example, a clue might hint at “the lady holding three stars on a tall pillar” (the Freedom Monument). Clicking the correct location opens a challenge.
+Mini-Quizzes/Puzzles: Each landmark reveals a short activity: a multiple-choice question about its history, a mini-puzzle (e.g. matching names to buildings), or a drag-and-drop map exercise. Correct answers earn points or collectables.
+Story/Theme: The player is framed as a young explorer or journalist visiting Riga. A simple narrative (“Complete your city tour and photo album by finding all 5 landmarks!”) gives context.
+Feedback/Rewards: Instant feedback (pop-ups congratulating success) and a progress tracker (e.g. collecting a Latvian folk symbol for each site) motivate continued play.
+The game could be implemented as a web app (HTML/CSS/JS) for easy access. It follows a sense-of-location theme by requiring navigation of the map and revealing cultural facts at each spot. For example, one puzzle might be: “Reorder the following architectural styles as seen in Riga’s center: Gothic, Art Nouveau, Wood Classicism.” This ties directly into the city’s history.
+Visual and Interface Design
+The UI will draw heavily on Riga’s visual motifs. For example, we use Art Nouveau-inspired decorative elements (curved lines, natural forms) similar to the building façade shown above, and we incorporate the year “1900” from such carvings to hint at history. The color scheme echoes the Latvian flag (carmine red and white), reinforcing local identity.
+Landmark Icons: Key structures (Freedom Monument, Town Hall, St. Peter’s spire, Latvian Song Festival wreath) are illustrated as icons. For instance, a simplified icon of the Freedom Monument (pictured below) will mark the park location on the map.
+
+The Freedom Monument (“Brīvības piemineklis”) is a city symbol and will be a major hotspot. Clicking it might reveal: “🇱🇻 This monument symbolizes Latvian independence. How many stars is the lady holding?” (Answer: 3 for the three Baltic regions).
+Navigation Cues: Street signs and district outlines use authentic local names (in Latvian and English) to build “sense of location.” For instance, the game map background might include Kalku iela (Lime Street) or Vecrīga labels.
+Cultural Decor: UI panels or buttons may feature Latvian folk patterns (e.g. Lielvārde belt geometric motifs) and subtle Oak leaf imagery, both important symbols. Traditional music notes or choral icons could appear during Song Festival questions.
+Layout: The main screen is split between the map and an info panel. When a player clicks a landmark, a modal or side panel slides in with a photo (or illustration) of the real location, a short description, and the quiz question. Background illustrations (skyline silhouette or the Daugava river) set a local ambiance.
+Overall, the interface uses real-world elements from Riga’s cityscape and culture to immerse the player. The selected images above serve as inspiration for the look and feel of the game.
+Prototype Example Code
+https://github.com/NikitaPupsik/Riga-for-turists
