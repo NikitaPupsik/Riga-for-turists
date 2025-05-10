@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+ <style> #map { height: 600px; } </style>
+</head>
+<body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Home | My Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Riga for turists</h1>
+      <nav>
+        <a href="index.html">About</a>
+        <a href="map.html">Map</a>
+        <a href="quizz.html">Quizz</a>
+      </nav>
+    </header>
+ <div id="map"></div>
+
+
+ <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+ <script>
+   var map = L.map('map').setView([56.95, 24.11], 13);
+   L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
+   // Add a marker
+   var fmMarker1 = L.marker([56.951409, 24.113251]).addTo(map);
+   fmMarker1.bindPopup("<b>Freedom Monument</b><br>This statue holds three stars.").openPopup();
+ </script>
+</body>
+</html>
+
+

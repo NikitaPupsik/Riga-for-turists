@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Quizz</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+<body>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Home | My Website</title>
+        <link rel="stylesheet" href="style.css" />
+      </head>
+      <body>
+        <header>
+          <h1>Welcome to Riga for turists</h1>
+          <nav>
+            <a href="index.html">About</a>
+            <a href="map.html">Map</a>
+            <a href="quizz.html">Quizz</a>
+          </nav>
+        </header>
+
+<div class="quiz-box">
+  <h3>What is the Freedom Monument in Riga holding?</h3>
+  <div class="option" onclick="checkAnswer(this, false)">A sword and shield</div>
+  <div class="option" onclick="checkAnswer(this, false)">A book and laurel wreath</div>
+  <div class="option" onclick="checkAnswer(this, true)">Three stars</div>
+  <div class="option" onclick="checkAnswer(this, false)">An olive branch and flag</div>
+  <div class="result" id="resultBox"></div>
+</div>
+
+<script>
+  function checkAnswer(element, isCorrect) {
+    const resultBox = document.getElementById("resultBox");
+    if (isCorrect) {
+      resultBox.textContent = "✅ Correct! The three stars represent Latvia’s historical regions.";
+      resultBox.style.color = "green";
+    } else {
+      resultBox.textContent = "❌ Incorrect. Try again!";
+      resultBox.style.color = "red";
+    }
+  }
+</script>
+
+</body>
+</html>
