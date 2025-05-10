@@ -26,10 +26,24 @@
  <script>
    var map = L.map('map').setView([56.95, 24.11], 13);
    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
-   // Add a marker
-   var fmMarker1 = L.marker([56.951409, 24.113251]).addTo(map);
-   fmMarker1.bindPopup("<b>Freedom Monument</b><br>This statue holds three stars.").openPopup();
- </script>
+
+  var Brpiem = L.icon({
+    iconUrl: 'https://brivibaspiemineklis.lv/images/1.jpg?b8de43d91087621c193920dc32c9997e', // example URL
+    iconSize: [20, 40], 
+    iconAnchor: [20, 40], // point of the icon which corresponds to marker location
+    popupAnchor: [0, -35] // point from which popup should open
+  });
+
+  var customMarker = L.marker([56.951409, 24.113251], { icon: Brpiem}).addTo(map);
+  customMarker.bindPopup(`
+  <b>Freedom Monument</b><br>
+  This monument symbolizes Latvian independence.<br>
+  <img src="https://www.rigaspieminekli.lv/mBildes/2---1434618209---2.Brivibas_piem_1.TIFF.jpg" 
+       alt="Freedom Monument" 
+       width="100" style="margin-top:10px; border-radius:8px;">
+`);
+</script>
+
 </body>
 </html>
 
